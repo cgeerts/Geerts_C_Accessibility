@@ -1,0 +1,17 @@
+.audio-player {
+    color: rgb(19, 18, 20);
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    #icon {
+        font-size: 30px;
+        padding-left: 10px;
+    }
+
+    h1, p {
+        color: rgb(221, 211, 228);
+    }
+}

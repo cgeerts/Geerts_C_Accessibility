@@ -1,0 +1,39 @@
+.video-player {
+    color: rgb(19, 18, 20);
+
+    h1 {
+        padding-left: 10%;
+        margin: 10px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    #icon {
+        font-size: 30px;
+        padding-left: 10px;
+    }
+
+    .videos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #video {
+        height: 80%;
+        width: 90%;
+        padding: 8px;
+        background-color: rgba(32, 27, 56, 0.445);
+        box-shadow: 5px 10px 10px rgba(12, 2, 31, 0.63);
+    }
+
+    p {
+        padding-right: 30px;
+        padding-top: 10px;
+    }
+}
+
