@@ -21,13 +21,3 @@ import VideoComponent from "./components/TheVideoComponent.js";
         }
     }).$mount("#app");
 })();
-
-(()=> {
-    const videoTranscriptButton = document.querySelector(".transcriptButton");
-
-    function toggleTranscript(){
-        console.log("Transcript");
-        this.nextElementSibling.classList.toggle("visible");
-    }
-    videoTranscriptButton.addEventListener("click", toggleTranscript);
-}).$mount("#app");
